@@ -5,5 +5,58 @@
 }
 
 body {
-  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  top: 10px;
+  right: 10px;
+
+/*   background-color: sandybrown;
+ */}
+
+header nav {
+/*   padding: 40px 20px;
+ */
+/*   background-color: aquamarine;
+ */}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 10px;
+  
+/*   background-color: blue;
+ */}
+
+header ul li{
+  padding: 10px;
+  background-color: #4a4a4a;
+  border-radius: 10px;
+  color: white;
+}
+
+header ul a {
+  display: inline-block;
+/*   width: 40px;
+  height: 40px;
+ */  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+
+/*   background-color: chocolate;
+ */}
+
+main {
+  background-color: rgb(233, 152, 152);
+  height: calc(100vh - 100px);
+  overflow: auto;
+}
+
+footer {
+  background-color: rgb(180, 144, 212);
+  height: 100px;
 }
