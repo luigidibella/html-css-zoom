@@ -28,6 +28,7 @@ header ul {
   justify-content: space-between;
   list-style: none;
   gap: 10px;
+  margin-right: 20px;
   
 /*   background-color: blue;
  */}
@@ -51,12 +52,38 @@ header ul a {
  */}
 
 main {
-  background-color: rgb(233, 152, 152);
+  background-color: black;
   height: calc(100vh - 100px);
   overflow: auto;
+  padding: 90px 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+/*   border: aquamarine solid 2px;
+ */  background-color: black;
+}
+
+.user {
+  border: black solid 2px;
+  max-width: 100%;
+}
+
+.photo {
+
+}
+
+.name {
+/*   max-width: max-content;
+ */  padding: 5px;
+  color: white;
+  background-color: rgba(74, 74, 74, 0.4);
 }
 
 footer {
-  background-color: rgb(180, 144, 212);
+  background-color: #222222;
   height: 100px;
 }
