@@ -18,11 +18,11 @@ header {
   /* background-color: sandybrown; */
 }
 
-header nav {
-  /* padding: 40px 20px; */
+/* header nav {
+  padding: 40px 20px;
   
-  /* background-color: aquamarine; */
-}
+  background-color: aquamarine;
+} */
 
 header ul {
   display: flex;
@@ -75,9 +75,9 @@ main .container {
   max-width: 100%;
 }
 
-.photo {
+/* .photo {
   
-}
+} */
 
 .name {
   /* max-width: max-content; */
@@ -100,7 +100,8 @@ footer .container {
   align-items: center;
 }
 
-footer .container .devices {
+footer .container .devices,
+footer .container .commands {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,6 +139,10 @@ footer li a:hover {
 footer i {
   font-size: 1.5rem;
   
+}
+
+#share-screen {
+  color: #4bc800;
 }
 
 footer .end-call {
