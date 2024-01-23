@@ -8,20 +8,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER */
 header {
   position: fixed;
   z-index: 999;
   top: 10px;
   right: 10px;
-
-/*   background-color: sandybrown;
- */}
+  
+  /* background-color: sandybrown; */
+}
 
 header nav {
-/*   padding: 40px 20px;
- */
-/*   background-color: aquamarine;
- */}
+  /* padding: 40px 20px; */
+  
+  /* background-color: aquamarine; */
+}
 
 header ul {
   display: flex;
@@ -30,27 +31,29 @@ header ul {
   gap: 10px;
   margin-right: 20px;
   
-/*   background-color: blue;
- */}
+  /* background-color: blue; */
+}
 
 header ul li{
   padding: 10px;
   background-color: #4a4a4a;
   border-radius: 10px;
-  color: white;
 }
 
 header ul a {
   display: inline-block;
-/*   width: 40px;
-  height: 40px;
- */  text-align: center;
+  /* width: 40px;
+  height: 40px; */
+  text-align: center;
   line-height: 40px;
   text-decoration: none;
+  color: white;
+  
+  /* background-color: chocolate; */
+}
+/* /HEADER */
 
-/*   background-color: chocolate;
- */}
-
+/* MAIN */
 main {
   background-color: black;
   height: calc(100vh - 100px);
@@ -58,13 +61,13 @@ main {
   padding: 90px 80px;
 }
 
-.container {
+main .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-/*   border: aquamarine solid 2px;
- */  background-color: black;
+  /* border: aquamarine solid 2px; */
+  background-color: black;
 }
 
 .user {
@@ -73,17 +76,77 @@ main {
 }
 
 .photo {
-
+  
 }
 
 .name {
-/*   max-width: max-content;
- */  padding: 5px;
+  /* max-width: max-content; */
+  padding: 5px;
   color: white;
   background-color: rgba(74, 74, 74, 0.4);
 }
+/* /MAIN */
+
+/* FOOTER */
 
 footer {
   background-color: #222222;
   height: 100px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .container .devices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+footer ul li {
+  /* background-color: aquamarine; */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer li a {
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+footer li a:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+footer i {
+  font-size: 1.5rem;
+  
+}
+
+footer .end-call {
+  background-color: #4a4a4a;
+  padding: 40px 25px;
+  color: red;
+}
+
+footer .end-call:hover {
+  color: white;
+  cursor: pointer;
 }
